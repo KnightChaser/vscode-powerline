@@ -7,21 +7,37 @@
 /* Themes */
 
 /* airline default "dark" theme */
+/* airline default "dark" theme */
 body {
-    --powerline-mode-fg: #00005f;
-    --powerline-normal-bg: #dfff00;
-    --powerline-insert-bg: #00dfff;
-    --powerline-replace-bg: #af0000;
-    --powerline-visual-bg: #ffaf00;
-    --powerline-inner-fg: #ffffff;
-    --powerline-inner-bg: #202020;
-    --powerline-inner-bg-hl: #303030;
-    --powerline-second-segment-fg: #ffffff;
-    --powerline-second-segment-bg: rgba(0, 0, 0, 0.5);
-    --powerline-separator: #303030;
-    --powerline-vim-command-line: #ffffff;
+    --powerline-mode-fg: #ff4081; /* vibrant pink */
+    --powerline-normal-bg: #121212; /* very dark grey almost black */
+    --powerline-insert-bg: #1a1a1a; /* slightly lighter dark grey */
+    --powerline-replace-bg: #ff4081; /* vibrant pink */
+    --powerline-visual-bg: #00bcd4; /* bright cyan */
+    --powerline-inner-fg: #cc99ff; /* light purple */
+    --powerline-inner-bg: #1e1e1e; /* dark grey */
+    --powerline-inner-bg-hl: #292929; /* darker grey */
+    --powerline-second-segment-fg: #c6ff00; /* neon green */
+    --powerline-second-segment-bg: rgba(50, 50, 50, 0.5); /* medium dark grey semi-transparent */
+    --powerline-separator: #424242; /* medium grey */
+    --powerline-vim-command-line: #8c9eff; /* soft blue */
     --powerline-mode-weight: bold;
 }
+/* body { */
+/*     --powerline-mode-fg: #00005f; */
+/*     --powerline-normal-bg: #000000; */
+/*     --powerline-insert-bg: #000000; */
+/*     --powerline-replace-bg: #af0000; */
+/*     --powerline-visual-bg: #ffaf00; */
+/*     --powerline-inner-fg: #ffffff; */
+/*     --powerline-inner-bg: #202020; */
+/*     --powerline-inner-bg-hl: #303030; */
+/*     --powerline-second-segment-fg: #ffffff; */
+/*     --powerline-second-segment-bg: rgba(0, 0, 0, 0.5); */
+/*     --powerline-separator: #303030; */
+/*     --powerline-vim-command-line: #ffffff; */
+/*     --powerline-mode-weight: bold; */
+/* } */
 
 /* Nord */
 div.arcticicestudio-nord-visual-studio-code-themes-nord-color-theme-json footer.statusbar {
